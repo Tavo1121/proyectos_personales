@@ -1,11 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reloj Inicio</title>
+    <link rel="stylesheet" href="../css/inicio.css">
 </head>
 <body>
-    
+    <div id="btn__cabecera">
+        <div id="btn__reloj">
+            <h1 id="reloj">Reloj</h1>
+        </div>
+        <div id="btn__hora">
+            <h1 id="hora_actual"></h1>
+        </div>
+    </div>
+    <div id="btn__cuerpo">
+        <a href="alarma.html">
+            <button>
+            <div id="btn__alarma">
+                <img src="../img/icons8-alarm-clock-96.png" alt="" class="btn__imagenes">
+                <div>
+                    <p id="alarma">Alarma</p>
+                </div>
+            </div>
+        </button>
+        </a>
+        <a href="">
+            <button>
+                <div id="btn__temporizador">
+                    <img src="../img/icons8-timer-52.png" alt="" class="btn__imagenes">
+                    <div>
+                        <p id="temporizador">Temporizador</p>
+                    </div>
+                
+                </div>
+            </button>
+        </a>
+        <button>
+            <div id="btn__cronometro">
+                <img src="../img/icons8-stopwatch-96.png" alt="" class="btn__imagenes">
+                <div>
+                    <p id="cronometro">Cronómetro</p>
+                </div>
+            </div>
+        </button>
+        <button>
+            <div id="btn__contador">
+                <img src="../img/icons8-counter-96.png" alt="" class="btn__imagenes">
+                <div>
+                    <p id="contador">Contador</p>
+                </div>
+            </div>
+        </button>    
+    </div>
+    <script src="../js/inicio.js"></script>
 </body>
 </html>
