@@ -9,16 +9,32 @@
 <body>
     <div id="btn__cabecera">
         <div id="btn__alarma">
-            <img src="../img/icons8-alarm-on-96.png" alt="">
-            
-            
+            <div id="btn__alarma--img">
+                <img src="../img/icons8-alarm-on-96.png" alt="">
+            </div>
+            <div id="btn__alarma--text">
+                <h1 id="alarma">Alarma</h1>
+            </div>
         </div>
-        <h1 id="alarma">Alarma</h1>
+        
         <div id="btn__hora">
-            <img src="../img/icons8-home-96.png" alt="">
-            
+            <div id="btn__hora--img">
+                <a href="../html/inicio.html"><img src="../img/icons8-home-96.png" alt=""></a>
+                
+            </div>
+            <div id="btn__hora--text">
+                <h1 id="hora_actual"></h1>
+            </div>
         </div>
-        <h1 id="hora_actual"></h1>
     </div>
+    <div id="btn__cuerpo">
+        <div id="contenedor__alarma">
+            <h2 id="texto_alarma">Alarmas activas</h2>
+        </div>
+        <div id="contenido__alarmas--activas">
+            <p id="texto_alarmas--activas"></p>
+        </div>
+    </div>
+    <script src="../js/alarma.js"></script>
 </body>
 </html>
