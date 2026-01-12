@@ -8,3 +8,8 @@ function actualizarHora() {
 
 setInterval(actualizarHora, 1000);
 actualizarHora();
+
+// Esta parte del js es en la que aparecen las alarmas activas
+const alarmas_activas = document.getElementById("texto_alarmas--activas");
+
+let alarmas = [];
