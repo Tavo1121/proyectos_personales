@@ -13,5 +13,9 @@ Esta función se hará con un campo para poder introducir con js la hora exacta 
 La función de poder poner una alarma con la hora y minutos que quiera la persona que lo use. Y también podra escoger los dias que quiera activar la alarma. Esta función se podrá hacer con los input de number para que puedan introducir las numeros necesarios, este programa sera de 24 horas.
 Y la función para escoger los dias se podra escoger con un select que permita escoger varias opciones.
 
+Para añadir una alarma nueva voy a utilizar con js la creación de una pantalla modal en la q tendrá que introducir los diferentes campos necesarios o si no quiere pues q pulse a la X o a cualquier parte de la pantalla q este fuera de la pantalla modal
+
 # 3º La función de poder poner un temporizador.
+
+Esta función de temporizador se va realizar con un contador inverso q el que utilice el reloj pueda poner el tiempo q el quiera y q al llegar a 0 suene o muestre x pantalla fin del temporizador
 
