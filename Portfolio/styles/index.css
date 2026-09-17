@@ -1,0 +1,236 @@
+/* Reset básico */
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    padding: 0 1rem;
+    /* background-image: url(fondo-pagina.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Encabezado */
+header {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #3A3C45;
+    color: #ecf0f1;
+}
+.logo{
+    width: 90px;
+    border-radius: 10px;
+    position: fixed;
+    top: 0%;
+    right: 16px;
+    box-shadow: initial;
+}
+.links{
+    color: #39E991;
+    text-decoration: none;
+    padding: 7px;
+    margin-right: 10px;
+    border: #39E991 solid 2px;
+    border-radius: 10px;
+
+}
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 1rem 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+#about{
+    border: #39E991 solid 3px;
+    border-radius: 10px;
+
+}
+/* Skills */
+#skills h2{
+    text-align: center;
+    color: white;
+}
+#skills{
+    background-color: #3A3C45;
+    /* margin: 0; */
+    color: white;
+    padding: 10px 100px;
+    width: 100%;
+    border: #39E991 solid 3px;
+    border-radius: 10px;
+}
+.skills-container{
+    display:flex;
+    flex-wrap: wrap;
+    flex: auto;
+}
+.skills-text{
+    display: grid;
+    grid-column: auto;
+    grid-row: auto;
+}
+.skills-img{
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+    flex-grow: inherit;
+}
+/* Experiencia */
+#experience{
+    text-align: center;
+}
+video{
+    width: 50%;
+    
+}
+#experience-h3{
+   text-align: center;
+}
+/* Efecto hover en la navegación */
+header nav ul li a:hover {
+    color: #39E991;
+}
+#projects{
+    border: #39E991 solid 3px;
+    border-radius: 10px;
+}
+/* Secciones */
+section {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+
+}
+
+#projects .project {
+    margin-bottom: 1.5rem;
+    padding: 1.5rem;
+    border: 2px solid #39E991;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.links-git{
+    margin-top: 20px;
+    color: #3A3C45;
+    text-decoration: none;
+    padding: 7px;
+    margin-right: 10px;
+    border: #3A3C45 solid 2px;
+    border-radius: 10px;
+    background-color: #39E991 ;
+}
+
+/* Efecto hover en los proyectos */
+#projects .project:hover  {
+    transform: scale(1.03);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    color: white;
+    background-color: #3A3C45;
+    border-color: #39E991;
+    .links-git{
+        margin-top: 5px;
+        color: #39E991;
+        text-decoration: none;
+        padding: 7px;
+        margin-right: 10px;
+        border: #39E991 solid 2px;
+        border-radius: 10px;
+        background-color: #3A3C45;
+    }
+    /* white */
+}
+#contact{
+
+    text-align: center;
+
+
+}
+#contact button,.contacto{
+    font-size: 35px;
+    background-color: #3A3C45;
+    color: #39E991;
+    border: #39E991 solid 2px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.imagenes{
+    width: 40px;
+    padding: 5px;
+}
+footer{
+    background-color: #3A3C45;
+    color: white;
+}
+
+
+/* Media Queries para diseño responsive */
+@media (max-width: 768px) {
+    body{
+        padding: 0;
+    }
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    header nav ul li {
+        display: block;
+        
+    }
+    .nav-header{
+        display: flex;
+    }
+    .logo{
+        margin-top: 65px;
+        margin-right: -10px;
+        width: 80px;
+    }
+    section {
+        padding: 1.5rem;
+    }
+    .skills-text div{
+        margin-left: -5px;
+        align-items: center;
+    }
+    #projects .project {
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 0.9rem;
+    }
+
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+ }
