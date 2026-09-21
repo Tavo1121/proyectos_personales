@@ -10,7 +10,7 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     color: #333;
-    padding: 0 1rem;
+    /* padding: 0 1rem; */
     /* background-image: url(fondo-pagina.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
@@ -22,6 +22,10 @@ header {
     padding: 1.5rem;
     background-color: #3A3C45;
     color: #ecf0f1;
+    background-image: url(/Portfolio/images/background.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0 0 0.5rem 0.5rem;
 }
 .logo{
     width: 90px;
@@ -143,7 +147,11 @@ section {
     border-radius: 10px;
     background-color: #39E991 ;
 }
-
+.experience-ul{
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
 /* Efecto hover en los proyectos */
 #projects .project:hover  {
     transform: scale(1.03);
@@ -177,13 +185,18 @@ section {
     border-radius: 10px;
     text-decoration: none;
 }
-.imagenes{
+.images{
     width: 40px;
     padding: 5px;
 }
 footer{
     background-color: #3A3C45;
     color: white;
+    text-align: center;
+    background-image: url(/Portfolio/images/background.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0 0 0.5rem 0.5rem;
 }
 
 
