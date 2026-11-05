@@ -131,18 +131,22 @@ section {
 }
 
 #projects .project {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.8rem;
     padding: 1.5rem;
     border: 2px solid #39E991;
     border-radius: 10px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+.project .links-git{
+    margin :auto;
+}
 .links-git{
-    margin-top: 20px;
+    margin:0.8rem 0;
+    /* margin-top: 20px; */
     color: #3A3C45;
     text-decoration: none;
     padding: 7px;
-    margin-right: 10px;
+    /* margin-right: 10px; */
     border: #3A3C45 solid 2px;
     border-radius: 10px;
     background-color: #39E991 ;
@@ -177,7 +181,8 @@ section {
 
 
 }
-#contact button,.contacto{
+.contacto{
+    padding: 0.5rem 1rem;
     font-size: 35px;
     background-color: #3A3C45;
     color: #39E991;
@@ -199,6 +204,9 @@ footer{
     border-radius: 0 0 0.5rem 0.5rem;
 }
 
+span{   
+    font-weight: bold;
+}
 
 /* Media Queries para diseño responsive */
 @media (max-width: 768px) {
